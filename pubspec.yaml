@@ -1,0 +1,36 @@
+name: ai_radio
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.17.0
+  cupertino_icons: ^1.0.0
+  google_fonts: ^1.1.1
+  velocity_x: ^1.0.1
+  flutter_launcher_icons: ^0.8.1
+  splashscreen: ^1.3.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/radio.png"
+
+
+flutter:
+  
+  uses-material-design: true
+  
+  assets:
+    - assets/
+#     - images/radio.png
+  
